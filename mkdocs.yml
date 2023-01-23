@@ -1,0 +1,21 @@
+site_name: Wails
+
+theme:
+  name: 'material'
+
+nav:
+  - Introduction: introduction.md
+  - Getting Started:
+    - Installation: gettingstarted/installation.md
+    - Create a Project: gettingstarted/firstproject.md
+    - Developing your Application: gettingstarted/development.md
+    - Compiling your Project: gettingstarted/building.md
+  
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
