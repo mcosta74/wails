@@ -2,15 +2,25 @@ site_name: Wails
 
 theme:
   name: 'material'
+  features:
+    - navigation.tabs
 
 nav:
-  - Introduction: introduction.md
-  - Getting Started:
-    - Installation: gettingstarted/installation.md
-    - Create a Project: gettingstarted/firstproject.md
-    - Developing your Application: gettingstarted/development.md
-    - Compiling your Project: gettingstarted/building.md
-  
+  - Docs:
+    - Introduction: docx/introduction.md
+    - Getting Started:
+      - Installation: docx/gettingstarted/installation.md
+      - Create a Project: docx/gettingstarted/firstproject.md
+      - Developing your Application: docx/gettingstarted/development.md
+      - Compiling your Project: docx/gettingstarted/building.md
+  - Blog:
+    - v3 Roadmap: blog/2023-01-17-v3-roadmap.md
+    - v2 Release Notes: blog/2022-09-22-v2-release-notes.md
+    - v2-beta3 Release Notes: blog/2022-02-22-v2-beta3-release-notes.md
+    - Wails v2 Beta for Windows: blog/2021-11-08-v2-beta2-release-notes.md
+    - v2-beta1 Release Notes: blog/2021-09-27-v2-beta1-release-notes.md
+
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

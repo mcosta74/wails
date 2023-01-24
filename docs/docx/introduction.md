@@ -22,7 +22,7 @@ This is [varly](https://varly.app) - a desktop application for
 MacOS & Windows written using Wails. Not only does it look great, it uses native menus and translucency - everything
 you'd expect from a modern native app.
 
-![varly2](./img/showcase/varly2.webp)
+![varly2](../img/showcase/varly2.webp)
 
 ### Quick Start Templates
 
